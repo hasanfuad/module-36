@@ -5,9 +5,9 @@ import { Accordion, Button, Card } from "react-bootstrap";
 const News = (props) => {
   const { title,description,url,urlToImage,name } = props.article;
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
       
-      <Card style={{ width: "18rem" }}>
+      <Card  style={{textAlign: 'center'}} style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
